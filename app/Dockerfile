@@ -14,4 +14,4 @@ RUN git clone https://github.com/josejuansanchez/2048.git /app \
 
 EXPOSE 80
 
-CMD [ "¿?/usr/sbin/apache2ctl¿?", "-D", "FOREGROUNG" ]
+CMD [ "/usr/sbin/apache2ctl", "-D", "FOREGROUNG" ]
