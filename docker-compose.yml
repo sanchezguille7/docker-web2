@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  nginx:
+    build: ./app
+    ports:
+      - "80:80"
+    restart: always
